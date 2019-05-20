@@ -13,20 +13,20 @@ class Contact extends Component {
                                 <form method="post" action="#">
                                     <div className="fields">
                                         <div className="field half">
-                                            <label for="name">Name</label>
+                                            <label htmlFor="name">Name</label>
                                             <input type="text" name="name" id="name" />
                                         </div>
                                         <div className="field half">
-                                            <label for="email">Email</label>
+                                            <label htmlFor="email">Email</label>
                                             <input type="text" name="email" id="email" />
                                         </div>
                                         <div className="field">
-                                            <label for="message">Message</label>
+                                            <label htmlFor="message">Message</label>
                                             <textarea name="message" id="message" rows="5"></textarea>
                                         </div>
                                     </div>
                                     <ul className="actions">
-                                        <li><a href="" className="button submit">Send Message</a></li>
+                                        {/* <li><a href="" className="button submit">Send Message</a></li> */}
                                     </ul>
                                 </form>
                             </section>
@@ -40,7 +40,7 @@ class Contact extends Component {
                                     </li>
                                     <li>
                                         <h3>Email</h3>
-                                        <a href="#">user@untitled.tld</a>
+                                        {/* <a href="#">user@untitled.tld</a>  */}
                                     </li>
                                     <li>
                                         <h3>Phone</h3>
@@ -49,11 +49,11 @@ class Contact extends Component {
                                     <li>
                                         <h3>Social</h3>
                                         <ul className="icons">
-                                            <li><a href="#" className="fa-twitter"><span className="label">Twitter</span></a></li>
+                                            {/* <li><a href="#" className="fa-twitter"><span className="label">Twitter</span></a></li>
                                             <li><a href="#" className="fa-facebook"><span className="label">Facebook</span></a></li>
                                             <li><a href="#" className="fa-github"><span className="label">GitHub</span></a></li>
                                             <li><a href="#" className="fa-instagram"><span className="label">Instagram</span></a></li>
-                                            <li><a href="#" className="fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                                            <li><a href="#" className="fa-linkedin"><span className="label">LinkedIn</span></a></li> */}
                                         </ul>
                                     </li>
                                 </ul>

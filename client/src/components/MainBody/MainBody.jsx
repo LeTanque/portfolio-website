@@ -14,7 +14,9 @@ class MainBody extends Component {
             <>
                 <div id="wrapper">
                 
-                    <Intro />
+                    <Intro 
+                        quoteApi={this.props.quoteApi}
+                    />
                     <WorkHistory />
                     <WhatWeDo />
                     <Contact />
